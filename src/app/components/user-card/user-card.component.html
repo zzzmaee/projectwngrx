@@ -1,0 +1,9 @@
+<div class="user-card">
+  <ul style="list-style: none;">
+    <li>ID: {{ user.id }}</li>
+    <li>name: {{ user.name }}</li>
+    <li>username: {{ user.username }}</li>
+    <li>email: {{ user.email }}</li>
+  </ul>
+  <button (click)="deleteUser(user.id)">Delete</button>
+</div>
